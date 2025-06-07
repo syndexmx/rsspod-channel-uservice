@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: rsspod-channel-uservice
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rsspoddb
+    username: postgres
+    password: postgreSQL
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: false
+server:
+  port: 8888
+
+
