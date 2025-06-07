@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/rsspoddb
     username: postgres
-    password: postgreSQL
+    password: postgreSQL_SAFE_PASSWORD_HERE
   jpa:
     hibernate:
       ddl-auto: update
